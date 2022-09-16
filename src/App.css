@@ -1,0 +1,169 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@300&family=Rubik+Microbe&family=Yanone+Kaffeesatz&display=swap');
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*  modified*/
+#top{
+  background-color: rgb(24, 25, 26);
+height: 60px;
+  color: white;
+}
+#top img{
+  height: 25px ;
+  width: 25px;
+}
+#top img:hover{
+ 
+  padding: 2px;
+}
+
+/* Navbar css */
+
+#nav{
+  background-color: #d2ddf2;
+  text-decoration: none;
+  height: 70px;
+  margin-top: 4px;
+}
+.me{
+  margin: 25px;
+  text-decoration: none;
+  color:rgb(0, 0, 0);
+  font-size: 25px;
+  font-family: 'Fredoka', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Rubik Microbe', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+.carousel-item {
+  height: 500px;
+}
+
+.item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.hom{
+  color: rgb(28, 0, 237);
+  font-size: 30px;
+  font-weight: 500;
+}
+.card-title{
+  text-align: center;
+}
+
+.card-img-top{
+  height: 130px;
+  width: 130px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.card-img-top:hover{
+  background-color: blue;
+  padding: 5px;
+}
+.homep{
+  background-color: #fdf0f0;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+.card-img{
+  padding: 20px;
+  height: 138px;
+  width: 190px;
+  margin: auto;
+  filter:grayscale(0) brightness(1);
+}
+
+.card-img:hover{
+  
+  filter:grayscale(.5) brightness(.7); 
+}
+
+
+
+/*  About page */
+.abouth{
+  background-color: #eff1f3;
+}
+.abouth2{
+  background-color: #eff1f3;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Courier New', Courier, monospace;
+}
+.aboutp{
+  padding: 40px;
+}
+
+
+/* services page css*/
+.card-img-to{
+  height: 210px;
+  width: 210px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.card-img-to:hover{
+ 
+  padding: 5px;
+}
+.card{
+  color: #282c34;
+}
+
+
+
+
+.conCenter{
+  background-color: #6fb6ca;
+  margin: auto;
+}
